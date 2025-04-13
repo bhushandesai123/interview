@@ -1,0 +1,25 @@
+not able to do ssh 
+
+- sg 22 ,
+- nacl 
+- ip &username and ssh key name check 
+- instance state —> get instance screenshot 
+-  —> instance state —> monitor & trouble hsoot —> get system log —> see if any error message u can see  
+-  instance state 
+-  check ec2 is in private instance or public subnet 
+-  vpc has gateway or not ? 
+- vpc has gateway but route entries or not?
+---
+Aws new understanding, [12/12/24 7:09 pm]
+LOST PEM KEY SOLUTION 
+1 TAKE AMI AND CREATE NEW INSTANCE FROM IT AND USE THAT INSTANCE BUT IP GET CHANGED
+2 FROM EBS
+--->  2  FROM EBS
+DETACH 1ST EC2 EBS
+ATTACH IT TO NEW 2ND EC2
+COPY .SSH FOLDER FROM NEW EC2 TO OLD EC2 EBS
+DETACH OLD EC2 EBS 
+AGAIN ATTACH TO OLD EC2
+THEN USE KEY OF NEW EC2 TO CONNECT
+--- 
+
