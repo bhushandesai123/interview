@@ -1,0 +1,7 @@
+rolling update we do deployment within 10 minutes  but in canary u can extend it 2-3 days ,a weeks ,a monthand in rolling update it is mandatory to update on all pods new versions 
+but in canary u can analyse performance in limited set
+
+network policy
+podselector, polcytypes :—-> ingress ,egress, ,can  define by ip, namespace ,podselector 
+
+
